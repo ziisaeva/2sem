@@ -6,7 +6,6 @@
 
 using namespace std;
 
-// Структура для хранения информации о фильме
 struct Movie {
     string title;
     string director;
@@ -15,7 +14,6 @@ struct Movie {
     int showTime;
 };
 
-// Функции для работы с базой данных
 void loadFromFile(vector<Movie>& movies, string filename) {
     ifstream file(filename);
     string line;
